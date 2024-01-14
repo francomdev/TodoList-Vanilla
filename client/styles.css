@@ -3,9 +3,59 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgb(248, 247, 247);
+    background: linear-gradient(90deg, (rgb(248, 247, 247)), (rgb(248, 247, 100)));
 }
 
 h1 {
-    color: red;
+    font-size: 30pt;
+}
+
+.items-container {
+    box-shadow: 3px 3px 5px gray;
+    border-radius: 10px;
+    height: 500px;
+    width: 450px;
+    position: relative;
+    background-color: white;
+}
+
+.input {
+    display: flex;
+    width: 420px;
+    justify-content: space-evenly;
+    position: absolute;
+    bottom: 40px;
+}
+
+button {
+    background-color: rgb(31, 109, 253);
+    color: white;
+    border: 0px;
+    border-radius: 5px;
+    padding: 0.5em 1.5em 0.5em 1.5em;
+    font-size: 12pt;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(69, 129, 241);
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    font-size: 14pt;
+}
+
+input {
+    width: 300px;
+    margin-left: 20px;
+}
+
+li {
+    cursor: pointer;
 }
